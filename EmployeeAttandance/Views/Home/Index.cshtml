@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <select id="columnSelect">
+        <option>EmployeeId</option>
+        <option>Name</option>
+        <option>Email</option>
+        <option>Phone</option>
+        <option>Department date</option>
+        <option>Post</option>
+        <option>Experience</option>
+        <option>Attendance Date</option>
+        <option>Date of Joining</option>
+    </select>
+</div>
+
+<div class="col-12">
+    <table class="table table-striped table-hover table-bordered" id="DisplayTable">
+        <thead>
+            <tr>
+                <th>EmployeeId</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Department Name</th>
+                <th>Post</th>
+                <th>Experience</th>
+                <th>Attendance Date</th>
+                <th>Date of Joining</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>EmployeeId</td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Phone</td>
+                <td>Department Name</td>
+                <td>Post</td>
+                <td>Experience</td>
+                <td>Attendance Date</td>
+                <td>Date of Joining</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+<script src="~/js/site.js" asp-append-version="true"></script>

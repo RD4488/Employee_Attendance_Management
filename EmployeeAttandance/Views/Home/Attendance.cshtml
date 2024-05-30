@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Mark attendance for";
+}
+<h1 style="display:flex">@ViewData["Title"] <div id="currentDate" style="display:flex"></div> </h1>
+
+<div class="col-12">
+    <table class="table table-striped table-hover table-bordered" id="DisplayTable" style="width:100%">
+        <thead>
+            <tr>
+                <th>EmployeeId</th>
+                <th>Name</th>
+                <th>Post</th>
+                <th>Mark Attendance</th>
+                <th>Attendance DateTime</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<script src="~/js/markAttendance.js" asp-append-version="true"></script>
